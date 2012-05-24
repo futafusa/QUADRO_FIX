@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+* {
+	font-family: Century, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro W3", "メイリオ", Meiryo, serif;
+}
+
+/* /////////////////////////////clearfix */
+.clearfix:after {
+    clear: both; 
+    display: block;
+    height: 0;
+    visibility: hidden;
+    content: ".";
+    font-size: 0.1em;
+    line-height: 0;
+    overflow: hidden;
+}
+.clearfix {
+    min-height: 1%;
+    display: inline-table;
+}
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/* /////////////////////////////common css */
+.mt0   {margin-top:0px !IMPORTANT;}
+.mt5   {margin-top:5px !IMPORTANT;}
+.mt10 {margin-top:10px !IMPORTANT;}
+.mt15 {margin-top:15px !IMPORTANT;}
+.mt20 {margin-top:20px !IMPORTANT;}
+.mt25 {margin-top:25px !IMPORTANT;}
+.mt30 {margin-top:30px !IMPORTANT;}
+
+.mb0   {margin-bottom:0px !IMPORTANT;}
+.mb5   {margin-bottom:5px !IMPORTANT;}
+.mb10 {margin-bottom:10px !IMPORTANT;}
+.mb15 {margin-bottom:15px !IMPORTANT;}
+.mb20 {margin-bottom:20px !IMPORTANT;}
+.mb25 {margin-bottom:25px !IMPORTANT;}
+.mb30 {margin-bottom:30px !IMPORTANT;}
+.mb40 {margin-bottom:40px !IMPORTANT;}
+.mb50 {margin-bottom:50px !IMPORTANT;}
+.mb60 {margin-bottom:60px !IMPORTANT;}
+
+.ml0   {margin-left:0px !IMPORTANT;}
+.ml5   {margin-left:5px !IMPORTANT;}
+.ml10 {margin-left:10px !IMPORTANT;}
+.ml15 {margin-left:15px !IMPORTANT;}
+.ml20 {margin-left:20px !IMPORTANT;}
+.ml25 {margin-left:25px !IMPORTANT;}
+.ml30 {margin-left:30px !IMPORTANT;}
+
+.mr0   {margin-right:0px !IMPORTANT;}
+.mr5   {margin-right:5px !IMPORTANT;}
+.mr10 {margin-right:10px !IMPORTANT;}
+.mr15 {margin-right:15px !IMPORTANT;}
+.mr20 {margin-right:20px !IMPORTANT;}
+.mr25 {margin-right:25px !IMPORTANT;}
+.mr30 {margin-right:30px !IMPORTANT;}
+
+
+.alignright {
+	text-align:right;
+}
+/* /////////////////////////////Link */
+a {
+	text-decoration: none;
+	color: #15AA89;
+}
+a:visited {
+	text-decoration: none;
+	color: #15AA89;
+}
+a:hover {
+	text-decoration: none;
+	color: #EA5576;
+}
+a:active {
+	text-decoration: none;
+	color: #EA5576;
+}
+
+/* /////////////////////////////Base Lauout */
+body {
+	background: url(../img/bg.jpg) no-repeat center 100px;
+}
+#container {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#tagline {
+	position: absolute;
+	left: 0;
+	top: 15px;
+	line-height:1.8;
+	font-size: 12px;
+}
+
+#social {
+	position: absolute;
+	right: 0;
+	top: 0;	
+}
+
+#track {
+	width: 602px;
+	float: right;
+	display: inline;
+	padding-top: 730px;
+}
+#track table {
+	width: 100%;
+	font-size: 12px;
+}
+
+#track table th {
+	font-weight: normal;
+	font-style: italic;
+	padding: 8px 0;
+	text-align:left;
+}
+#track table td {
+	padding: 8px 0;
+}
+
+#staff {
+	float: left;
+	display: inline;
+	width: 500px;
+	font-size: 12px;
+}
+
+#staff dl {
+	float: left;
+	display: inline;
+	width: 160px;
+	height: 100px;
+	line-height:1.5;
+}
+#staff dl dt {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+#bnr {
+	float: right;
+	display: inline;
+}
+
+address {
+	padding-bottom: 20px;
+}
